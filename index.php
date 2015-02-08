@@ -126,7 +126,16 @@
                                         define('WEATHER_ICONS_URL', 'wdweather/');
                                         ?>
                                             <h2 class="animation-hatch">
-                                                <strong><?php echo $day['hi'] == 'N/A' ? '&mdash;' : WdWeather::toCelsius($day['hi']) . '°C'; ?></strong><br>
+                                                <strong><?php 
+                                                    foreach ($days as $day)
+                                                    {
+                                                        
+                                                        echo $day['hi'] == 'N/A' ? '&mdash;' : WdWeather::toCelsius($day['hi']) . '°C';
+
+                                                    }
+
+
+                                                 ?></strong><br>
                                                 <small><i class="fa fa-map-marker"></i> LES SABLES D'OLONNE</small>
                                             </h2>
                                         </div>
