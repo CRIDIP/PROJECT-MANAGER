@@ -125,7 +125,7 @@
                                                 $weather = new WdWeather();
 
                                                 $code = $weather->getCityCode('Toulouse, France');
-                                                $days = $weather->getWeather($code, 4);
+                                                $day = $weather->getWeather($code, 4);
 
                                                 define('WEATHER_ICONS_URL', 'wdweather/');
                                                         
