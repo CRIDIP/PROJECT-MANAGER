@@ -128,12 +128,9 @@
                                                 $days = $weather->getWeather($code, 4);
 
                                                 define('WEATHER_ICONS_URL', 'wdweather/');
-                                                    foreach ($days as $day)
-                                                    {
                                                         
                                                         echo $day['hi'] == 'N/A' ? '&mdash;' : WdWeather::toCelsius($day['hi']) . '°C';
 
-                                                    }
 
 
                                                  ?></strong><br>
