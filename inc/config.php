@@ -4,9 +4,9 @@
 	$logiciel = 'RISTOGEST';
 	$description = '';
 	define('SITE', 'http://vps116895.ovh.net/');
-	define('FOLDER', 'ristogest/');
+	define('FOLDER', 'project/');
 	define('ASSETS', 'assets/');
-	$theme = 'fire';
+	$theme = 'modern';
 
 //Paramétrage date & Heure
 	date_default_timezone_set("EUROPE/PARIS");
