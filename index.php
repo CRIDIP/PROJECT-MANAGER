@@ -46,11 +46,11 @@
                 <div class="sidebar-scroll">
                     <!-- Sidebar Content -->
                     <div class="sidebar-content">
-                        <?php include ('inc/chat.php'); ?>
+                        <?php //include ('inc/chat.php'); ?>
 
                         <?php include ('inc/activity.php'); ?>
 
-                        <?php include ('inc/message_ui.php'); ?>
+                        <?php //include ('inc/message_ui.php'); ?>
                     </div>
                     <!-- END Sidebar Content -->
                 </div>

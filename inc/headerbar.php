@@ -11,49 +11,16 @@
 
                         <!-- Template Options -->
                         <!-- Change Options functionality can be found in js/app.js - templateOptions() -->
-                        <li class="dropdown">
-                            <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">
-                                <i class="gi gi-settings"></i>
-                            </a>
-                            <ul class="dropdown-menu dropdown-custom dropdown-options">
-                                <li class="dropdown-header text-center">Header Style</li>
-                                <li>
-                                    <div class="btn-group btn-group-justified btn-group-sm">
-                                        <a href="javascript:void(0)" class="btn btn-primary" id="options-header-default">Light</a>
-                                        <a href="javascript:void(0)" class="btn btn-primary" id="options-header-inverse">Dark</a>
-                                    </div>
-                                </li>
-                                <li class="dropdown-header text-center">Page Style</li>
-                                <li>
-                                    <div class="btn-group btn-group-justified btn-group-sm">
-                                        <a href="javascript:void(0)" class="btn btn-primary" id="options-main-style">Default</a>
-                                        <a href="javascript:void(0)" class="btn btn-primary" id="options-main-style-alt">Alternative</a>
-                                    </div>
-                                </li>
-                                <li class="dropdown-header text-center">Main Layout</li>
-                                <li>
-                                    <button class="btn btn-sm btn-block btn-primary" id="options-header-top">Fixed Side/Header (Top)</button>
-                                    <button class="btn btn-sm btn-block btn-primary" id="options-header-bottom">Fixed Side/Header (Bottom)</button>
-                                </li>
-                                <li class="dropdown-header text-center">Footer</li>
-                                <li>
-                                    <div class="btn-group btn-group-justified btn-group-sm">
-                                        <a href="javascript:void(0)" class="btn btn-primary" id="options-footer-static">Default</a>
-                                        <a href="javascript:void(0)" class="btn btn-primary" id="options-footer-fixed">Fixed</a>
-                                    </div>
-                                </li>
-                            </ul>
-                        </li>
-                        <!-- END Template Options -->
+
                     </ul>
                     <!-- END Left Header Navigation -->
 
                     <!-- Search Form -->
-                    <form action="page_ready_search_results.html" method="post" class="navbar-form-custom" role="search">
+                    <!-- <form action="page_ready_search_results.html" method="post" class="navbar-form-custom" role="search">
                         <div class="form-group">
                             <input type="text" id="top-search" name="top-search" class="form-control" placeholder="Search..">
                         </div>
-                    </form>
+                    </form> -->
                     <!-- END Search Form -->
 
                     <!-- Right Header Navigation -->
@@ -71,7 +38,7 @@
                         <!-- User Dropdown -->
                         <li class="dropdown">
                             <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">
-                                <img src="img/placeholders/avatars/avatar2.jpg" alt="avatar"> <i class="fa fa-angle-down"></i>
+                                <img src="<?php echo SITE,FOLDER,ASSETS; ?>img/placeholders/avatars/avatar2.jpg" alt="avatar"> <i class="fa fa-angle-down"></i>
                             </a>
                             <ul class="dropdown-menu dropdown-custom dropdown-menu-right">
                                 <li class="dropdown-header text-center">Account</li>

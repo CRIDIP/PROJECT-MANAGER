@@ -1,6 +1,6 @@
 <!-- Activity -->
                         <a href="javascript:void(0)" class="sidebar-title">
-                            <i class="fa fa-globe pull-right"></i> <strong>Activity</strong>UI
+                            <i class="fa fa-globe pull-right"></i> <strong>Activité</strong>
                         </a>
                         <div class="sidebar-section">
                             <div class="alert alert-danger alert-alt">

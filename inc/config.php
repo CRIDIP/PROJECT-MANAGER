@@ -1,7 +1,7 @@
 <?php 
 //Paramétrage Balise Head
-	$title = 'CRIDIP-SWD<br><small>Test</small>';
-	$logiciel = 'CRIDIP-SWD<br><small>Test</small>';
+	$title = 'CRIDIP-SWD';
+	$logiciel = 'CRIDIP-SWD';
 	$description = '';
 	define('SITE', 'http://vps116895.ovh.net/');
 	define('FOLDER', 'project/');
