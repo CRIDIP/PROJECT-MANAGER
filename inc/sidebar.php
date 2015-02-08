@@ -45,16 +45,16 @@
                                 <a href="page_widgets_links.html"><i class="gi gi-calendar sidebar-nav-icon"></i>Abonnements</a>
                             </li>
                             <li>
-                                <a href="page_widgets_links.html"><i class="gi gi-link sidebar-nav-icon"></i>Articles</a>
+                                <a href="page_widgets_links.html"><i class="gi gi-barcode sidebar-nav-icon"></i>Articles</a>
                             </li>
                             <li>
-                                <a href="page_widgets_links.html"><i class="gi gi-link sidebar-nav-icon"></i>Devis</a>
+                                <a href="page_widgets_links.html"><i class="gi gi-file sidebar-nav-icon"></i>Devis</a>
                             </li>
                             <li>
-                                <a href="page_widgets_links.html"><i class="gi gi-link sidebar-nav-icon"></i>Tickets</a>
+                                <a href="page_widgets_links.html"><i class="gi gi-tags sidebar-nav-icon"></i>Tickets</a>
                             </li>
                             <li>
-                                <a href="page_widgets_links.html"><i class="gi gi-link sidebar-nav-icon"></i>Parametre</a>
+                                <a href="page_widgets_links.html"><i class="gi gi-cogs sidebar-nav-icon"></i>Parametre</a>
                             </li>
                         </ul>
                         <!-- END Sidebar Navigation -->
