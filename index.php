@@ -118,15 +118,16 @@
                                         <div class="col-sm-3 hidden-xs">
                                         <?php
 
-                                        $weather = new WdWeather();
-
-                                        $code = $weather->getCityCode('Toulouse, France');
-                                        $days = $weather->getWeather($code, 4);
-
-                                        define('WEATHER_ICONS_URL', 'wdweather/');
+                                        
                                         ?>
                                             <h2 class="animation-hatch">
                                                 <strong><?php 
+                                                $weather = new WdWeather();
+
+                                                $code = $weather->getCityCode('Toulouse, France');
+                                                $days = $weather->getWeather($code, 4);
+
+                                                define('WEATHER_ICONS_URL', 'wdweather/');
                                                     foreach ($days as $day)
                                                     {
                                                         
