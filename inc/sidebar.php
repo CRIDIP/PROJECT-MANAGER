@@ -54,7 +54,7 @@
                                 <a href="page_widgets_links.html"><i class="gi gi-tags sidebar-nav-icon"></i>Tickets</a>
                             </li>
                             <li>
-                                <a href="page_widgets_links.html"><i class="gi gi-cogs sidebar-nav-icon"></i>Parametre</a>
+                                <a href="page_widgets_links.html"><i class="gi gi-wrench sidebar-nav-icon"></i>Parametre</a>
                             </li>
                         </ul>
                         <!-- END Sidebar Navigation -->
