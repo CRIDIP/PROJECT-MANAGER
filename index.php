@@ -116,8 +116,17 @@
                                         </div>
                                         <!-- We hide the last stat to fit the other 3 on small devices -->
                                         <div class="col-sm-3 hidden-xs">
+                                        <?php
+
+                                        $weather = new WdWeather();
+
+                                        $code = $weather->getCityCode('Toulouse, France');
+                                        $days = $weather->getWeather($code, 4);
+
+                                        define('WEATHER_ICONS_URL', 'wdweather/');
+                                        ?>
                                             <h2 class="animation-hatch">
-                                                <strong>-1&deg; C</strong><br>
+                                                <strong><?php echo $day['hi'] == 'N/A' ? '&mdash;' : WdWeather::toCelsius($day['hi']) . '°C'; ?></strong><br>
                                                 <small><i class="fa fa-map-marker"></i> LES SABLES D'OLONNE</small>
                                             </h2>
                                         </div>
